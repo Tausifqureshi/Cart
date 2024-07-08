@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+}
+
+.navbar {
+    background-color: lightblue;
+    width: 79%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.1em;
+  }
+  .logo img {
+    height: 70px;
+  }
+  
+  .cart-icon {
+    margin-right: 1rem;
+    position: relative;
+  }
+  
+  .cart-icon i {
+    font-size: 30px;
+    color: #000;
+  }
+  
+  .cart-icon sup {
+    font-size: 12px;
+    position: absolute;
+    background-color: white;
+    font-weight: bold;
+    padding: 0 0.3rem;
+    border-radius: 50%;
+    top: -25%;
+    right: -26%;
+  }
+
+  .main-container{
+   display: flex;
+   justify-content: space-between;
+  }
+  
+#renderdata {
+  background-color: #ffffff;
+  width: 90%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* js se create this class */
+.box-main {
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 323px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 13px;
+  margin-top: 1rem;
+  height: 400px;
+  margin-left: 0.8rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.box-main img {
+  width: 200px;
+  height: 200px;
+  padding-top: 0.3em;
+}
+
+/* js se create this class */
+.productTitle {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 0.2rem;
+}
+
+/* js se create this class */
+.price-element {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 0.2rem;
+  font-family: "Poppins";
+}
+
+/* js se create this class */
+.btn-element {
+  padding: 0.8em 7rem;
+  margin-top: 0.3em;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: lightblue;
+}
+         
+.rendercartdata {
+    height: 200px;
+    width: 20%;
+    background-color: #f3f7f8;
+    border-top: 1px solid #a8a2a2;
+    margin-top: .2rem;
+    margin-right: .1rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+    
+/* js se create this class */
+  .removeTitle{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 0.2rem;
+    text-align: center;
+    font-style: italic;
+  }
+
+.removeDescription{
+  margin-top: .2rem;
+  text-align: center;
+   font-family: 'Poppins';
+   font-weight: 500;
+}  
+
+.removePrice{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0.2rem;
+  font-family: "Poppins";
+  
+}
+
+.removeButton{
+  position: absolute;
+  width: 45%;
+  left: 0;
+  bottom: 0;
+  padding: .5em 0em;
+  font-size: 17px;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  background-color: #5D3587;
+  color: white;
+  font-weight: bold; 
+  font-style: oblique;
+}
+
+.emptycart{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 1em;
+  border-bottom: 1px solid #857e7e;
+}
+  .removePriceTotal{
+    font-size: 20px;
+   text-align: center;
+   margin-top: .8em;
+  }
+
+.rendercartdata a{
+text-decoration: none;
+/* list-style: none; */
+}
+
+.rendercartdata button{
+  text-decoration: none;
+  display: block;
+  background-color: #5D3587;
+  font-size: 1em;
+  width: 75%;
+  margin: auto;
+  margin-top: 2em;
+  padding: 1em 0 ;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-style: oblique;
+  font-family: 'Poppins';
+ 
+}
+
+a:hover button{
+  text-decoration: underline;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

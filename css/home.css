@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins";
+}
+
+.navbar {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.1em;
+}
+.logo img {
+  height: 70px;
+}
+
+.cart-icon {
+  margin-right: 1rem;
+  position: relative;
+}
+
+.cart-icon i {
+  font-size: 30px;
+  color: #000;
+}
+
+.cart-icon sup {
+  font-size: 12px;
+  position: absolute;
+  background-color: white;
+  font-weight: bold;
+  padding: 0 0.3rem;
+  border-radius: 50%;
+  top: -25%;
+  right: -26%;
+}
+
+
+
+#renderdata {
+  background-color: rgba(179, 171, 171, 0.327);
+  width: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* js se create this class */
+.box-main {
+ background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 323px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0.6rem 1rem ;
+  height: 342px;
+  /* margin-left: 0.8rem; */
+  border-radius: .5rem;
+  overflow: hidden;
+position: relative;
+}
+
+.box-main img {
+  width: 200px;
+  height: 200px;
+  padding-top: 0.4em;
+}
+
+/* js se create this class */
+.addTitle{
+  font-size: 17px;
+  font-weight: bolder;
+  margin-top: 0.2rem;
+  text-align: center;
+ font-style: italic;
+}
+
+.addDecription{
+  margin-top: .2rem;
+  text-align: center;
+   font-family: 'Poppins';
+   font-weight: 500;
+  
+  
+}
+
+/* js se create this class */
+.addPrice {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0.2rem;
+  font-family: "Poppins";
+}
+
+/* js se create this class */
+.addButton{
+  /* position: absolute; */
+  width: 100%;
+  /* height: 90%; */
+  bottom: 0;
+  padding: .9em 7.2rem;
+  margin-top: 0.5em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: oblique;
+  color: white;
+  background-color: #5D3587;
+  overflow-x: hidden;
+  cursor: pointer;
+ 
+}
+

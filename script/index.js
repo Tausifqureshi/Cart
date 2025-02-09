@@ -6,6 +6,7 @@ let calculeteTotal = [];
 
 async function getData() {
   try {
+    // https://geektrust.s3.ap-southeast-1.amazonaws.com/coding-problems/shopping-cart/catalogue.json 
     const response = await fetch("https://fakestoreapi.com/products");
     const data = await response.json();
     console.log("data", data);
